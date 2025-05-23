@@ -1,4 +1,4 @@
-package br.edu.atitus.product_service;
+package br.edu.atitus.currency_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-public class ProductServiceApplication {
+public class CurrencyServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductServiceApplication.class, args);
+		SpringApplication.run(CurrencyServiceApplication.class, args);
 	}
 
 }
